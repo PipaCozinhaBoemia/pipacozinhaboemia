@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17355272974"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'AW-17355272974');
-</script>
   <meta charset="UTF-8">
   <title>Pipa! Cozinha Boêmia</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17355272974"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'AW-17355272974');
+  </script>
 
   <style>
     * {
@@ -72,25 +72,11 @@
     }
 
     .photo {
-  width: 100%;
-  max-width: 100%;
-  border-radius: 12px;
-  margin-top: 20px;
-  object-fit: cover;
-}
-
-    <a
-  class="button"
-  href="https://maps.app.goo.gl/jYookDTQckdiQ75KA"
-  target="_blank"
-  rel="noopener"
->
-  Como chegar
-</a>
-
-<!-- IMAGEM -->
-<img src="foto.jpg" alt="Foto do Pipa" class="photo">
-    
+      width: 100%;
+      border-radius: 12px;
+      margin-top: 20px;
+      object-fit: cover;
+    }
   </style>
 </head>
 
@@ -110,29 +96,35 @@
       Vem pro Pipa!
     </div>
 
-  <a
-  class="button"
-  href="https://www.instagram.com/pipacozinha"
-  target="_blank"
-  rel="noopener"
-  onclick="gtag('event', 'conversion', {
-    'send_to': 'AW-17355272974/J15mCOPiw94bEI7m0dNA'
-  });"
->
-  Visite nosso Instagram
-</a>
+    <!-- BOTÃO INSTAGRAM -->
+    <a
+      class="button"
+      href="https://www.instagram.com/pipacozinha"
+      target="_blank"
+      rel="noopener"
+      onclick="gtag('event', 'conversion', {
+        'send_to': 'AW-17355272974/J15mCOPiw94bEI7m0dNA'
+      });"
+    >
+      Visite nosso Instagram
+    </a>
 
-  <a
-  class="button"
-  href="https://maps.app.goo.gl/jYookDTQckdiQ75KA"
-  target="_blank"
-  rel="noopener"
-  onclick="gtag('event', 'conversion', {
-    'send_to': 'AW-17355272974/Cl2tCObiw94bEI7m0dNA'
-  });"
->
-  Como chegar
-</a>
+    <!-- BOTÃO COMO CHEGAR -->
+    <a
+      class="button"
+      href="https://maps.app.goo.gl/jYookDTQckdiQ75KA"
+      target="_blank"
+      rel="noopener"
+      onclick="gtag('event', 'conversion', {
+        'send_to': 'AW-17355272974/Cl2tCObiw94bEI7m0dNA'
+      });"
+    >
+      Como chegar
+    </a>
+
+    <!-- FOTO -->
+    <img src="foto.jpg" alt="Foto do Pipa" class="photo">
+
   </div>
 
 </body>
